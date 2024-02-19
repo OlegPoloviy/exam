@@ -1,0 +1,407 @@
+/* general styles */
+body {
+    margin: 0;
+    background-color: #f2f1ef;
+}
+
+* {
+    font-family: "Darker Grotesque", sans-serif;
+}
+
+/* header */
+.header {
+    display: flex;
+    width : 100%;
+    height: 10vh;
+    justify-content: center;
+}
+
+.links {
+    width: 35%;
+}
+
+.links ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+#orange {
+    color: #E94D35;
+}
+
+.moxa {
+    position: absolute;
+    right: 90px;
+    font-size: 23px;
+    top: 7px;
+}
+
+.moxa h2 {
+    margin-top: 0;
+}
+
+.burger {
+    list-style-type: none;
+    position: absolute;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+    top: 7px;
+}
+
+.burger div{
+    height : 2px;
+    background-color: black;
+    width: 20px;
+    margin : 5px;
+}
+
+/* section 1 - home */
+#home {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cont {
+    width: 85%;
+    height: 100%;
+    position: relative;
+}
+
+.cont img {
+    /* width: 536px;
+    height: 574px; */
+    position: absolute;
+    right: 10px;
+}
+
+.name {
+    width: 70%;
+    height: 20%;
+    position: absolute;
+    top: 100px;
+}
+
+.name b {
+    color : #E94D35;
+}
+
+.name h2 {
+    margin: 0;
+    font-size: 58px;
+}
+
+.info_2 {
+    width: 50%;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.buttons {
+    width: 50%;
+}
+
+.btn_1 {
+    background-color: #E94D35;
+    width: 177px;
+    height: 50px;
+    border: 1px solid #E94D35;
+    border-radius: 30px;
+    color: #FFFFFF;
+    position: relative;
+    font-size: 20px;
+    text-align: start;
+}
+
+.btn_1:hover{
+    opacity: 0.7;
+}
+
+.btn_1 img {
+    position: absolute;
+    height: 30px;
+}
+
+.btn_2 {
+    background-color: #f2f1ef;
+    width: 177px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 30px;
+    color: black;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.btn_2:hover {
+    opacity: 0.7;
+}
+
+/* section 2 - about */
+#about {
+    width: 100%;
+    background-color: #000000;
+    height: 35vh;
+}
+
+.about_blocks {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.bl_1 , .bl_2 , .bl_3 , .bl_4 {
+    width: 15%;
+    height: 67%;
+    border: 2px solid #E94D35;
+    border-top-right-radius: 35px;
+    position: relative;
+    color: #FFFFFF;
+    font-size: 50px;
+    text-align: center;
+}
+
+.bl_1:nth-child(even),
+.bl_2:nth-child(even),
+.bl_3:nth-child(even),
+.bl_4:nth-child(even) {
+    border: 2px dashed #E94D35;
+}
+
+
+.bl_1 h2,.bl_2 h2 ,.bl_3 h2 , .bl_4 h2{
+    margin: 0;
+}
+
+#years , #progects , #clients , #award {
+    font-size: 16px;
+}
+
+.bl_1 img,.bl_2 img,.bl_3 img,.bl_4 img {
+    position: absolute;
+    top : -20px;
+    left: 10px;
+}
+
+/* section 3 - companies */
+.companies {
+    width: 100%;
+    display: flex;
+    height: 30vh;
+}
+
+.pattern {
+    align-self: center;
+}
+
+.text_1 {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 90px;
+}
+
+.text_1 img {
+    width: 104px;
+    height:13px ;
+}
+
+.text_1 h2{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+/* section 4 - services */
+#services {
+    width: 100%;
+    height: 50vh;
+}
+
+#services .img_1 {
+    position: relative;
+    left: 1410px;
+}
+
+.title_1 {
+    /* width: 20%; */
+    text-align: center;
+}
+
+#services_h2 {
+    font-size: 45px;
+    margin: 0 0 50px 0;
+}
+
+.cont_2 {
+    display: flex;
+    width : 100%;
+    height: 45vh;
+    justify-content: center;
+}
+
+.blocks_2 {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.block_1 {
+    background-color: #e6e3de;
+    width : 32%;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 60px;
+    filter: drop-shadow(16px #E6E3DE17);
+}
+
+.block_1 h2 , .block_2 h2 , .block_3 h2{
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+}
+
+.block_1 p,.block_2 p , .block_3 p {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+.block_2 {
+    background-color: #E94D35;
+    width: 32%;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 60px;
+}
+
+.block_3 {
+    background-color: #e6e3de;
+    width: 32%;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 60px;
+}
+
+/* section 5 - portfolio */
+#portfolio {
+    width: 100%;
+    height: 50vh;
+    margin-top: 500px;
+}
+
+.box1 , .box2 , .box3 , .box4 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 35vh;
+}
+
+.box2 {
+    margin-top: 190px;
+    justify-content: center;
+}
+
+.box3 {
+    margin-top: 190px;
+}
+
+.box4 {
+    margin-top: 150px;
+}
+
+.bottle {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+.img_2 {
+    width: 50%;
+}
+
+.text {
+    width: 40%;
+}
+
+.text_2 {
+    width: 60%;
+}
+
+.text_3 {
+    width: 40%;
+}
+
+.text_4 {
+    width: 60%;
+}
+
+#direction , #branding ,#web ,#motion{
+    background-color: #E94D35;
+    color: #FFFFFF;
+    font-size: 18px;
+    width: 30%;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+.text h2 , .text_2 h2,.text_3 h2,.text_4 h2{
+    font-size: 45px;
+}
+
+.text button , .text_2 button, .text_3 button  , .text_4 button{
+    height: 37px;
+    width: 143px;
+    border: 1px solid #E94D35;
+    border-radius: 30px;
+    /* padding: 0 20px; */
+}
+
+.text button:hover , .text_2 button:hover,.text_3 button:hover,.text_4 button:hover {
+    opacity: 0.7;
+}
+
+.mask {
+    width: 65%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.img_3 {
+    width: 50%;
+}
+
+.sign {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+.img_4 {
+    width: 50%;
+}
+
+.glass {
+    width: 65%;
+    display: flex;
+    justify-content: flex-end;
+}
