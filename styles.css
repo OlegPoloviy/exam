@@ -732,6 +732,57 @@ footer {
     }
 
     /* section 2 */
+    .bl_1 , .bl_2 , .bl_3 , .bl_4 {
+        width: 22%;
+        height: 50%;
+        border: 2px solid #E94D35;
+        border-top-right-radius: 35px;
+        position: relative;
+        color: #FFFFFF;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    #years , #progects , #clients , #award {
+        font-size: 12px;
+        margin-top: 10px;
+    }
     
+    .bl_1 h2,.bl_2 h2 ,.bl_3 h2 , .bl_4 h2{
+        margin-top: 19px;
+    }
+    
+    /* section 3 */
+    .pattern {
+        align-self: center;
+        width: 50px;
+        height: 70px;
+    }
+
+    .pattern img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .text_1 {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 10px;
+    }
+    
+    .text_1 img {
+        width: 70px;
+        height: 8px;
+        margin-top: 6px;
+    }
+    
+    .text_1 h2{
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    /* section 4 */
     
 }
